@@ -9,6 +9,7 @@ TagManager:
   - CargaVida
   - CargaFogo
   - Button
+  - Trap
   layers:
   - Default
   - TransparentFX

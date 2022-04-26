@@ -8,6 +8,7 @@ TagManager:
   - Ground
   - CargaVida
   - CargaFogo
+  - Button
   layers:
   - Default
   - TransparentFX

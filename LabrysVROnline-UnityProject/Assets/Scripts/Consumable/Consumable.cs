@@ -1,9 +1,11 @@
 using System;
+using System.Collections;
 using UnityEngine;
 
 public class Consumable : MonoBehaviour
 {
     public static event Action<float, GameObject> NotifyPlayerCollision;
+    
 
     [SerializeField] private float bonusValue { get; set; }
     [SerializeField] private bool collectedStatus { get; set; }

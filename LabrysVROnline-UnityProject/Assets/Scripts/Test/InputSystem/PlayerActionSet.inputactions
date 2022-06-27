@@ -1,0 +1,46 @@
+{
+    "name": "PlayerActionSet",
+    "maps": [
+        {
+            "name": "MovementActionMap",
+            "id": "51c7fd7b-b1e9-4015-9564-3951d440659d",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Value",
+                    "id": "d2466159-d9b8-473e-8476-2e64725baedd",
+                    "expectedControlType": "Key",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "6abd7236-b5d8-4a06-8d8f-a0f80dd4f447",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "TestKeyboardSchema",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "TestKeyboardSchema",
+            "bindingGroup": "TestKeyboardSchema",
+            "devices": [
+                {
+                    "devicePath": "<Keyboard>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}

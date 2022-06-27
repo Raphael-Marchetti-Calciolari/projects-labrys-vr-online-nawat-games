@@ -349,8 +349,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c6675ef9f0c14c4e8f0338dcab55f74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  parentPanel: {fileID: 1075770459}
-  targetPanel: {fileID: 1255135480}
 --- !u!114 &51646143
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -433,6 +431,49 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 51646140}
   m_CullTransparentMesh: 1
+--- !u!1 &126143854
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 126143856}
+  - component: {fileID: 126143855}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &126143855
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 126143854}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b0a2cacdf4f42b8a4b4f7da5c8d50a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &126143856
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 126143854}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.005, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &133621594
 GameObject:
   m_ObjectHideFlags: 0
@@ -597,8 +638,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c6675ef9f0c14c4e8f0338dcab55f74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  parentPanel: {fileID: 760504550}
-  targetPanel: {fileID: 1940224937}
 --- !u!114 &236883441
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -815,8 +854,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c6675ef9f0c14c4e8f0338dcab55f74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  parentPanel: {fileID: 1940224937}
-  targetPanel: {fileID: 760504550}
 --- !u!1 &307174751
 GameObject:
   m_ObjectHideFlags: 0
@@ -948,11 +985,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 307174751}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2c6675ef9f0c14c4e8f0338dcab55f74, type: 3}
+  m_Script: {fileID: 0}
   m_Name: 
   m_EditorClassIdentifier: 
-  parentPanel: {fileID: 1940224937}
-  targetPanel: {fileID: 1158462991}
 --- !u!1 &337860257
 GameObject:
   m_ObjectHideFlags: 0
@@ -1334,8 +1369,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c6675ef9f0c14c4e8f0338dcab55f74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  parentPanel: {fileID: 377292929}
-  targetPanel: {fileID: 1940224937}
 --- !u!114 &393675433
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1789,8 +1822,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c6675ef9f0c14c4e8f0338dcab55f74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  parentPanel: {fileID: 1940224937}
-  targetPanel: {fileID: 1255135480}
 --- !u!1 &573612984
 GameObject:
   m_ObjectHideFlags: 0
@@ -1924,8 +1955,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c6675ef9f0c14c4e8f0338dcab55f74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  parentPanel: {fileID: 760504550}
-  targetPanel: {fileID: 2083268318}
 --- !u!114 &602284860
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2142,8 +2171,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c6675ef9f0c14c4e8f0338dcab55f74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  parentPanel: {fileID: 1158462991}
-  targetPanel: {fileID: 1940224937}
 --- !u!114 &684497078
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2867,6 +2894,7 @@ GameObject:
   - component: {fileID: 1248757861}
   - component: {fileID: 1248757860}
   - component: {fileID: 1248757859}
+  - component: {fileID: 1248757863}
   m_Layer: 5
   m_Name: MatchMenu_Button
   m_TagString: Untagged
@@ -2906,8 +2934,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c6675ef9f0c14c4e8f0338dcab55f74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  parentPanel: {fileID: 1940224937}
-  targetPanel: {fileID: 377292929}
 --- !u!114 &1248757860
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2951,7 +2977,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1248757861}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1248757863}
+        m_TargetAssemblyTypeName: MenuButton, Assembly-CSharp
+        m_MethodName: PressButtonCustomizado
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1248757861
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2990,6 +3028,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1248757857}
   m_CullTransparentMesh: 1
+--- !u!114 &1248757863
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1248757857}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b0a2cacdf4f42b8a4b4f7da5c8d50a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1255135480
 GameObject:
   m_ObjectHideFlags: 0
@@ -3008,7 +3058,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1255135481
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3133,8 +3183,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c6675ef9f0c14c4e8f0338dcab55f74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  parentPanel: {fileID: 1255135480}
-  targetPanel: {fileID: 1940224937}
 --- !u!114 &1393127480
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3739,8 +3787,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c6675ef9f0c14c4e8f0338dcab55f74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  parentPanel: {fileID: 1578422805}
-  targetPanel: {fileID: 760504550}
 --- !u!114 &1587470746
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4195,8 +4241,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c6675ef9f0c14c4e8f0338dcab55f74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  parentPanel: {fileID: 2083268318}
-  targetPanel: {fileID: 760504550}
 --- !u!114 &1674617997
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4451,13 +4495,14 @@ GameObject:
   m_Component:
   - component: {fileID: 1940224938}
   - component: {fileID: 1940224939}
+  - component: {fileID: 1940224940}
   m_Layer: 5
   m_Name: Panel_MainMenu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1940224938
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4493,8 +4538,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cab44f55f720ccb4f98a14da7904a390, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  watchUI: {fileID: 1940224937}
-  activeWatchUI: 1
+--- !u!114 &1940224940
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1940224937}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6712244dc8a4799a9a84099787a9eac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentPanel: {fileID: 1940224937}
+  targetPanel: {fileID: 377292929}
+  activators:
+  - {fileID: 1248757857}
 --- !u!1 &1990762997
 GameObject:
   m_ObjectHideFlags: 0
@@ -4547,8 +4606,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c6675ef9f0c14c4e8f0338dcab55f74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  parentPanel: {fileID: 760504550}
-  targetPanel: {fileID: 1578422805}
 --- !u!114 &1990763000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4764,8 +4821,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c6675ef9f0c14c4e8f0338dcab55f74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  parentPanel: {fileID: 1255135480}
-  targetPanel: {fileID: 1075770459}
 --- !u!114 &2055953288
 MonoBehaviour:
   m_ObjectHideFlags: 0

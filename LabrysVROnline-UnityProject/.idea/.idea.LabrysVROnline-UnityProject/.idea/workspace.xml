@@ -4,30 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0027cd0c-f2aa-49be-a812-a04eb1604816" name="Changes" comment="">
+    <list default="true" id="882cfd1b-d15a-4fc9-b438-8ac43340077f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Menus.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Menus/New Scene.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Menus/New Scene.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Menus/WatchHologramMenuTest.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Menus/WatchHologramMenuTest.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Button/ButtonChangePanel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Button/ButtonChangePanel.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Menu.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.LabrysVROnline-UnityProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LabrysVROnline-UnityProject/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/RaphaTestScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/RaphaTestScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Consumable/Consumable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Consumable/Consumable.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
-  </component>
-  <component name="GitSEFilterConfiguration">
-    <file-type-list>
-      <filtered-out-file-type name="LOCAL_BRANCH" />
-      <filtered-out-file-type name="REMOTE_BRANCH" />
-      <filtered-out-file-type name="TAG" />
-      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
-    </file-type-list>
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3be1a7ff939c43f181c0a10b5a0189ac13c800/64/34157982/GameObject.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3be1a7ff939c43f181c0a10b5a0189ac13c800/97/d1c276db/Component.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -35,6 +28,9 @@
   <component name="ProjectId" id="28ctik5xBIVlwYHEKfXsGnZsVwI" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="1" />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -86,14 +82,22 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="0027cd0c-f2aa-49be-a812-a04eb1604816" name="Changes" comment="" />
+      <changelist id="882cfd1b-d15a-4fc9-b438-8ac43340077f" name="Changes" comment="" />
       <created>1651527833420</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1651527833420</updated>
       <workItem from="1651527840650" duration="3835000" />
-      <workItem from="1654719688065" duration="5467000" />
-      <workItem from="1654729229276" duration="1674000" />
+      <workItem from="1654203345982" duration="1325000" />
+      <workItem from="1654204987932" duration="2823000" />
+      <workItem from="1654222286034" duration="311000" />
+      <workItem from="1654312414312" duration="2230000" />
+      <workItem from="1654351589060" duration="2054000" />
+      <workItem from="1654363122838" duration="1286000" />
+      <workItem from="1654537776757" duration="1442000" />
+      <workItem from="1654545976761" duration="3254000" />
+      <workItem from="1654561865332" duration="1300000" />
+      <workItem from="1656356609796" duration="630000" />
     </task>
     <servers />
   </component>
@@ -103,6 +107,17 @@
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />

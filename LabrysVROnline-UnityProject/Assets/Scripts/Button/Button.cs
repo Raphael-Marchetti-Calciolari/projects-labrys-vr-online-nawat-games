@@ -7,7 +7,7 @@ public class Button : MonoBehaviour
     public event Action NotifyButtonPressed;
     
     private void Start(){
-        if (!gameObject.tag.Equals(buttonClassTag)) Debug.Log($"Button instance ${gameObject} has no tag or wrong tag attributed!");
+        if (!gameObject.tag.Equals(buttonClassTag)) Debug.Log($"Button instance \"{gameObject.name}\" has no tag or wrong tag attributed!");
     }
 
     public void PressButton()

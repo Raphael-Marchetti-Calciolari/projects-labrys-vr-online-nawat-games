@@ -14,6 +14,6 @@ public class Equipment : MonoBehaviour
     public bool gearBought = false;
 
     private void Start(){
-        if (!gameObject.tag.Equals(equipmentClassTag)) Debug.Log($"Equipment instance ${gameObject} has no tag or wrong tag attributed!");
+        if (!gameObject.tag.Equals(equipmentClassTag)) Debug.Log($"Equipment instance \"{gameObject.name}\" has no tag or wrong tag attributed!");
     }
 }

@@ -9,7 +9,7 @@ public class Sword : MonoBehaviour
 
     private void Start()
     {
-        if (!gameObject.tag.Equals(swordClassTag)) Console.WriteLine($"Sword instance ${gameObject} has no tag or wrong tag attributed!");
+        if (!gameObject.tag.Equals(swordClassTag)) Debug.Log($"Sword instance ${gameObject} has no tag or wrong tag attributed!");
     }
 
     private void OnCollisionEnter(Collision collision)

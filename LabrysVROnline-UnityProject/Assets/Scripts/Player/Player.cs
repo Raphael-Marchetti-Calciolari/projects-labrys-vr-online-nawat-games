@@ -7,7 +7,7 @@ public class Player : MonoBehaviour
 
     private void Start()
     {
-        if (!gameObject.tag.Equals(playerClassTag)) Console.WriteLine($"Player instance ${gameObject} has no tag or wrong tag attributed!");
+        if (!gameObject.tag.Equals(playerClassTag)) Debug.Log($"Player instance ${gameObject} has no tag or wrong tag attributed!");
     }
 
     public void Logout()

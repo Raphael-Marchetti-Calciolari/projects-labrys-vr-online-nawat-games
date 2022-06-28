@@ -14,13 +14,13 @@ public class ShopMenu : MonoBehaviour
    public Text gearBoughtText;
    public bool canBuy = true;
    public bool menuActive = true;
-   public EquipmentScript equipmentBool;
+   public Equipment equipmentBool;
 
    void Start()
    {
        WalletTXT.text = "Carteira:" + wallet.ToString();
        GameObject e = GameObject.FindGameObjectWithTag("Equipment");
-       equipmentBool = e.GetComponent<EquipmentScript>();
+       equipmentBool = e.GetComponent<Equipment>();
 
        //ID
        equipment[1, 1] = 1;

@@ -12,8 +12,9 @@ public class Trap : MonoBehaviour
     [SerializeField] private float damage;
     [SerializeField] private Button[] activators;
 
-    private void Start(){
-        if (!gameObject.tag.Equals(trapClassTag)) Console.WriteLine($"Trap instance ${gameObject} has no tag or wrong tag attributed!");
+    private void Start()
+    {
+        if (!gameObject.tag.Equals(trapClassTag)) Debug.Log($"Trap instance \"{gameObject.name}\" has no tag or wrong tag attributed!");
     }
 
     private void OnEnable()

@@ -15,7 +15,7 @@ public class Consumable : MonoBehaviour
     {
         isSabotage = false;
         collectedStatus = false;
-        if (!gameObject.tag.Equals(consumableClassTag)) Debug.Log($"Consumable instance ${gameObject} has no tag or wrong tag attributed!");
+        if (!gameObject.tag.Equals(consumableClassTag)) Debug.Log($"Consumable instance \"{gameObject.name}\" has no tag or wrong tag attributed!");
     }
 
     private void Sabotage()

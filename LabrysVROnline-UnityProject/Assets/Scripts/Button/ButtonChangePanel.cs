@@ -15,7 +15,7 @@ public class ButtonChangePanel : MonoBehaviour
     public void Awake()
     {
         button = gameObject.GetComponent<Button>();
-        button.onClick.AddListener(OnButtonClicked);
+       // button.onClick.AddListener(OnButtonClicked);
     }
 
     private void OnButtonClicked()

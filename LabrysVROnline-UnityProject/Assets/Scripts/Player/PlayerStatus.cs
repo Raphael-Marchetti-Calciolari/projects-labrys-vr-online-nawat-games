@@ -4,18 +4,18 @@ public class PlayerStatus : MonoBehaviour
 {
     public static Action<GameObject> NotifyPlayerDead;
 
-    private float life;
-    private float maxLife;
-    private float speed;
-    private bool alive;
-    private float weight;
-    private float stamina;
-    private bool isEffectActive;
+    [SerializeField] private float life;
+    [SerializeField] private float maxLife;
+    [SerializeField] private float speed;
+    [SerializeField] private bool alive;
+    [SerializeField] private float weight;
+    [SerializeField] private float stamina;
+    [SerializeField] private bool isEffectActive;
 
 
     private void Start()
     {
-        Sword.NotifySwordCollision += TakeDamage;
+        
     }
 
     public void Logout()
@@ -23,15 +23,21 @@ public class PlayerStatus : MonoBehaviour
         // Logout from session
     }
 
-    private void Heal(){}
-    private void ChangeSpeed(){}
-    private void TakeDamage(GameObject collider){
-        if (gameObject.Equals(collider)){
-            this.life -= damage;
-            if (this.life <= 0){
-                alive = false;
-                NotifyPlayerDead?.Invoke(gameObject);
-            }
+    public void ChangeSpeed(float newSpeed){
+        this.speed += newSpeed;
+        this.isEffectActive = true;
+        // delay
+        this.speed -= newSpeed;
+        this.isEffectActive = false;
+    }
+    public void ChangeLife(float healPoints){
+        this.life += healPoints;
+        if (this.life <= 0){
+            alive = false;
+            NotifyPlayerDead?.Invoke(gameObject);
+        }
+        else if (this.life > this.maxLife){
+            this.life = this.maxLife;
         }
     }
     public void Walk(float walkSpeed){}

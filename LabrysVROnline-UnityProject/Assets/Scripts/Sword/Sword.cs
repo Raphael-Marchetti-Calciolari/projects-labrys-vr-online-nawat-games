@@ -16,7 +16,10 @@ public class Sword : MonoBehaviour
     {
         if (collision.gameObject.tag.Equals(Player.playerClassTag))
         {
-            NotifySwordCollision?.Invoke(damage, collision.gameObject);
+            collision.gameObject.GetComponent<PlayerStatus>().ChangeLife(-this.damage);
+        }
+        else if (collision.gameObject.tag.Equals(Consumable.consumableClassTag)){
+            collision.gameObject.GetComponent<Consumable>().Sabotage();
         }
     }
 

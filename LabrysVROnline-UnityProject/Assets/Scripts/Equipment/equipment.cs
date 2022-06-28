@@ -8,7 +8,7 @@ public class Equipment : MonoBehaviour
     public static string equipmentClassTag = "Equipment";
 
     public float price;
-    public char name;
+    public char equipmentName;
     public char model;
     public char type;
     public bool gearBought = false;

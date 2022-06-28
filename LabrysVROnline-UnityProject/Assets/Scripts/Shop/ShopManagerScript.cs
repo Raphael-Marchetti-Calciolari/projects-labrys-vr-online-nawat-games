@@ -7,12 +7,20 @@ using UnityEngine.UI;
 public class ShopManagerScript : MonoBehaviour
 {
     public int[,] shopItems = new int[5,5];
+    public Equipment[] items; // Todos os equipamentos cadastrados na loja - provavelmente scriptable objects
     public float coins;
     public Text CoinsTXT;
+
+    private PlayerProfile playerProfileRef;
 
 
     void Start()
     {
+        foreach(var equip in playerProfileRef.GetEquipment()){
+            // Se Equip do catálogo == Equip comprado pelo player
+            // Equip do catálogo -> não mostra o equipamento que o player possui
+        }
+
         CoinsTXT.text = "Carteira:" + coins.ToString();
 
         //ID

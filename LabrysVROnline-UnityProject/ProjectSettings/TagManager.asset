@@ -10,6 +10,7 @@ TagManager:
   - CargaFogo
   - Button
   - Trap
+  - Event
   layers:
   - Default
   - TransparentFX

@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class Consumable : MonoBehaviour
 {
+    public static string consumableClassTag = "Consumable";
     public static event Action<float, GameObject> NotifyPlayerCollision;
-    
 
     [SerializeField] private float bonusValue { get; set; }
     [SerializeField] private bool collectedStatus { get; set; }
@@ -15,6 +15,7 @@ public class Consumable : MonoBehaviour
     {
         isSabotage = false;
         collectedStatus = false;
+        if (!gameObject.tag.Equals(consumableClassTag)) Debug.Log($"Consumable instance \"{gameObject.name}\" has no tag or wrong tag attributed!");
     }
 
     private void Sabotage()

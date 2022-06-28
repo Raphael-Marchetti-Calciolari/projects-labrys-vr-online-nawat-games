@@ -3,6 +3,7 @@ using UnityEngine;
 
 public class Trap : MonoBehaviour
 {
+    public static string trapClassTag = "Trap";
     public static event Action<float, GameObject> NotifyPlayerCollision;
     public event Action<bool> NotifyTrapActivatedStatusChange;
     
@@ -10,6 +11,10 @@ public class Trap : MonoBehaviour
     [SerializeField] private float timeActivated;
     [SerializeField] private float damage;
     [SerializeField] private Button[] activators;
+
+    private void Start(){
+        if (!gameObject.tag.Equals(trapClassTag)) Console.WriteLine($"Trap instance ${gameObject} has no tag or wrong tag attributed!");
+    }
 
     private void OnEnable()
     {

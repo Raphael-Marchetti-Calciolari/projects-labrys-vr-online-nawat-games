@@ -4,7 +4,7 @@ using UnityEngine;
 public class Sword : MonoBehaviour
 {
     public static string swordClassTag = "Sword";
-    public static event Action<float, GameObject> NotifySwordCollision;
+    public static event Action<GameObject> NotifyPlayerCollision;
     [SerializeField] private float damage;
 
     private void Start()
@@ -14,12 +14,10 @@ public class Sword : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.GetComponent<PlayerStatus>())
+        if (collision.gameObject.tag.Equals(Player.playerClassTag))
         {
             NotifySwordCollision?.Invoke(damage, collision.gameObject);
         }
-        else if (collision.gameObject.tag.Equals(Sword.swordClassTag));
-            //Sabotage();
     }
 
 }

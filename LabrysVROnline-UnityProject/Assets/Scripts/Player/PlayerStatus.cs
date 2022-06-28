@@ -25,7 +25,7 @@ public class PlayerStatus : MonoBehaviour
 
     private void Heal(){}
     private void ChangeSpeed(){}
-    private void TakeDamage(float damage, GameObject collider){
+    private void TakeDamage(GameObject collider){
         if (gameObject.Equals(collider)){
             this.life -= damage;
             if (this.life <= 0){

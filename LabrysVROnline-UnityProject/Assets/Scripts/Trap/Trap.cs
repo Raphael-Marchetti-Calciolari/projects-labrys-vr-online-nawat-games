@@ -53,7 +53,10 @@ public class Trap : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.tag.Equals(Player.playerClassTag))
+        if (collision.gameObject.GetComponent<PlayerStatus>())
+        {
             NotifyPlayerCollision?.Invoke(damage, collision.gameObject);
+        }
+            
     }
 }

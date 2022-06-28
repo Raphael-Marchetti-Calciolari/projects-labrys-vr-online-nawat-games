@@ -15,6 +15,7 @@ public class Consumable : MonoBehaviour
     {
         isSabotage = false;
         collectedStatus = false;
+        Sword.NotifySabotage += Sabotage;
         if (!gameObject.tag.Equals(consumableClassTag)) Debug.Log($"Consumable instance \"{gameObject.name}\" has no tag or wrong tag attributed!");
     }
 
@@ -50,7 +51,5 @@ public class Consumable : MonoBehaviour
             NotifyPlayerCollision?.Invoke(bonusValue, collision.gameObject);
             ChangeActivatedStatus();
         }
-        else if (collision.gameObject.tag.Equals(Sword.swordClassTag))
-            Sabotage();
     }
 }

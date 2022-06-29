@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-public class Button : MonoBehaviour
+public class GenericButton : MonoBehaviour
 {
     public static string buttonClassTag = "Button";
     public event Action NotifyButtonPressed;

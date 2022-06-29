@@ -7,10 +7,10 @@ public class Consumable : MonoBehaviour
     public static string consumableClassTag = "Consumable";
     public static event Action<float, GameObject> NotifyPlayerCollision;
 
-    [SerializeField] private float bonusValue { get; set; }
-    [SerializeField] private bool collectedStatus { get; set; }
-    [SerializeField] private bool isSabotage { get; set; }
-    [SerializeField] public ConsumableType consumableType {get;set;}
+    [SerializeField] private float bonusValue ;
+    [SerializeField] private bool collectedStatus ;
+    [SerializeField] private bool isSabotage ;
+    [SerializeField] public ConsumableType consumableType;
 
     private void Start()
     {
@@ -49,6 +49,7 @@ public class Consumable : MonoBehaviour
         if (collision.gameObject.tag.Equals(Player.playerClassTag))
         {
             PlayerStatus playerStatus = collision.gameObject.GetComponent<PlayerStatus>();
+            
             switch (this.consumableType){
                 case ConsumableType.ENERGY_CHARGE:
                     playerStatus.ChangeSpeed(bonusValue);

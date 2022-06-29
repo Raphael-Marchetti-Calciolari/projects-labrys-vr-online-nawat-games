@@ -5,22 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="882cfd1b-d15a-4fc9-b438-8ac43340077f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Menus.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Menus/New Scene.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Menus/New Scene.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Menus/WatchHologramMenuTest.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/Menus/WatchHologramMenuTest.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Button/ButtonChangePanel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Button/ButtonChangePanel.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Menu.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.LabrysVROnline-UnityProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LabrysVROnline-UnityProject/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ClassDiagram.asta.lock.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/RaphaTestScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/RaphaTestScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Consumable/Consumable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Consumable/Consumable.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/XR/Settings/Open XR Package Settings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/XR/Settings/Open XR Package Settings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -98,6 +95,7 @@
       <workItem from="1654545976761" duration="3254000" />
       <workItem from="1654561865332" duration="1300000" />
       <workItem from="1656356609796" duration="630000" />
+      <workItem from="1656526612434" duration="239000" />
     </task>
     <servers />
   </component>

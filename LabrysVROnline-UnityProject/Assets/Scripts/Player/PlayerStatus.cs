@@ -27,8 +27,8 @@ public class PlayerStatus : MonoBehaviour
         this.speed += newSpeed;
         this.isEffectActive = true;
         // delay
-        this.speed -= newSpeed;
-        this.isEffectActive = false;
+        // this.speed -= newSpeed;
+        // this.isEffectActive = false;
     }
     public void ChangeLife(float healPoints){
         this.life += healPoints;

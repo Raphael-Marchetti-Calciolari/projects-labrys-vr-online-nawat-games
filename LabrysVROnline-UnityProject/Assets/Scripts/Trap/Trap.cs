@@ -10,7 +10,7 @@ public class Trap : MonoBehaviour
     [SerializeField] private bool activatedStatus;
     [SerializeField] private float timeActivated;
     [SerializeField] private float damage;
-    [SerializeField] private Button[] activators;
+    [SerializeField] private GenericButton[] activators;
 
     private void Start()
     {
@@ -38,11 +38,13 @@ public class Trap : MonoBehaviour
         activatedStatus = !activatedStatus;
         if (activatedStatus)
         {
-            // Activate trap procedure
+            GetComponent<Collider>().enabled = true;
+            GetComponent<Renderer>().enabled = true;
         }
         else
         {
-            // Deactivate trap procedure
+            GetComponent<Collider>().enabled = false;
+            GetComponent<Renderer>().enabled = false;
         }
         
         // Play trap animation

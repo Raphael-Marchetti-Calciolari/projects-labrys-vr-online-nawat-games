@@ -6,10 +6,10 @@ TagManager:
   tags:
   - Wall
   - Ground
-  - CargaVida
-  - CargaFogo
   - Button
   - Trap
+  - Consumable
+  - Sword
   layers:
   - Default
   - TransparentFX

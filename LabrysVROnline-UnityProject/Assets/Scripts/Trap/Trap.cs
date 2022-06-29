@@ -56,7 +56,8 @@ public class Trap : MonoBehaviour
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.tag.Equals(Player.playerClassTag))
-        {
+        {            
+            
             collision.gameObject.GetComponent<PlayerStatus>().ChangeLife(-this.damage);
         }
             

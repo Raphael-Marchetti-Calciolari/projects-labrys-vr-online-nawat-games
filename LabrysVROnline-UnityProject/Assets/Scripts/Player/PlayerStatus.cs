@@ -6,13 +6,12 @@ public class PlayerStatus : MonoBehaviour
 
     [SerializeField] private float life;
     [SerializeField] private float maxLife;
-    [SerializeField] private float speed;
     [SerializeField] private bool alive;
+    [SerializeField] private float speed;
     [SerializeField] private float weight;
     [SerializeField] private float stamina;
     [SerializeField] private bool isEffectActive;
-
-
+    
     private void Start()
     {
         

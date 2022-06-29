@@ -11,6 +11,8 @@ public class MenuButton : MonoBehaviour
     
     public void PressButtonCustomizado()
     {
+        Debug.Log("Botao apertado");
         NotifyButtonPressed?.Invoke();
+        Debug.Log("Evento emitido");
     }
 }

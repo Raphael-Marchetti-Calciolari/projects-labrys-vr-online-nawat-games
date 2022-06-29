@@ -310,6 +310,7 @@ GameObject:
   - component: {fileID: 51646144}
   - component: {fileID: 51646143}
   - component: {fileID: 51646142}
+  - component: {fileID: 51646146}
   m_Layer: 5
   m_Name: X
   m_TagString: Untagged
@@ -392,7 +393,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 51646144}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 51646146}
+        m_TargetAssemblyTypeName: MenuButton, Assembly-CSharp
+        m_MethodName: PressButtonCustomizado
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &51646144
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -431,6 +444,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 51646140}
   m_CullTransparentMesh: 1
+--- !u!114 &51646146
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 51646140}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b0a2cacdf4f42b8a4b4f7da5c8d50a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &126143854
 GameObject:
   m_ObjectHideFlags: 0
@@ -598,6 +623,7 @@ GameObject:
   - component: {fileID: 236883443}
   - component: {fileID: 236883442}
   - component: {fileID: 236883441}
+  - component: {fileID: 236883444}
   - component: {fileID: 236883440}
   m_Layer: 5
   m_Name: X
@@ -681,7 +707,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 236883442}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 236883444}
+        m_TargetAssemblyTypeName: MenuButton, Assembly-CSharp
+        m_MethodName: PressButtonCustomizado
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &236883442
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -720,6 +758,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 236883438}
   m_CullTransparentMesh: 1
+--- !u!114 &236883444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 236883438}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b0a2cacdf4f42b8a4b4f7da5c8d50a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &304305311
 GameObject:
   m_ObjectHideFlags: 0
@@ -732,6 +782,7 @@ GameObject:
   - component: {fileID: 304305315}
   - component: {fileID: 304305314}
   - component: {fileID: 304305313}
+  - component: {fileID: 304305317}
   - component: {fileID: 304305316}
   m_Layer: 5
   m_Name: SettingsMenu_Button
@@ -803,7 +854,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 304305314}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 304305317}
+        m_TargetAssemblyTypeName: MenuButton, Assembly-CSharp
+        m_MethodName: PressButtonCustomizado
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &304305314
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -854,6 +917,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c6675ef9f0c14c4e8f0338dcab55f74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &304305317
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 304305311}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b0a2cacdf4f42b8a4b4f7da5c8d50a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &307174751
 GameObject:
   m_ObjectHideFlags: 0
@@ -866,6 +941,7 @@ GameObject:
   - component: {fileID: 307174755}
   - component: {fileID: 307174754}
   - component: {fileID: 307174753}
+  - component: {fileID: 307174757}
   - component: {fileID: 307174756}
   m_Layer: 5
   m_Name: TeamInvite_Button
@@ -937,7 +1013,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 307174754}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 307174757}
+        m_TargetAssemblyTypeName: MenuButton, Assembly-CSharp
+        m_MethodName: PressButtonCustomizado
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &307174754
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -986,6 +1074,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &307174757
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 307174751}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b0a2cacdf4f42b8a4b4f7da5c8d50a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &337860257
@@ -1239,6 +1339,7 @@ GameObject:
   - component: {fileID: 377292932}
   - component: {fileID: 377292931}
   - component: {fileID: 377292933}
+  - component: {fileID: 377292934}
   m_Layer: 5
   m_Name: Panel_MatchMenu
   m_TagString: Untagged
@@ -1317,6 +1418,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f383e8b018094244ac8cea208e2f4db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &377292934
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 377292929}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6712244dc8a4799a9a84099787a9eac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentPanel: {fileID: 377292929}
+  targetPanel: {fileID: 1940224937}
+  activators:
+  - {fileID: 393675436}
 --- !u!1 &393675430
 GameObject:
   m_ObjectHideFlags: 0
@@ -1330,6 +1447,7 @@ GameObject:
   - component: {fileID: 393675434}
   - component: {fileID: 393675433}
   - component: {fileID: 393675432}
+  - component: {fileID: 393675436}
   m_Layer: 5
   m_Name: X
   m_TagString: Untagged
@@ -1412,7 +1530,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 393675434}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 393675436}
+        m_TargetAssemblyTypeName: MenuButton, Assembly-CSharp
+        m_MethodName: PressButtonCustomizado
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &393675434
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1451,6 +1581,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 393675430}
   m_CullTransparentMesh: 1
+--- !u!114 &393675436
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 393675430}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b0a2cacdf4f42b8a4b4f7da5c8d50a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &415242770
 GameObject:
   m_ObjectHideFlags: 0
@@ -1700,6 +1842,7 @@ GameObject:
   - component: {fileID: 528133733}
   - component: {fileID: 528133732}
   - component: {fileID: 528133731}
+  - component: {fileID: 528133735}
   - component: {fileID: 528133734}
   m_Layer: 5
   m_Name: FriendsMenu_Button
@@ -1771,7 +1914,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 528133732}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 528133735}
+        m_TargetAssemblyTypeName: MenuButton, Assembly-CSharp
+        m_MethodName: PressButtonCustomizado
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &528133732
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1820,6 +1975,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2c6675ef9f0c14c4e8f0338dcab55f74, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &528133735
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 528133729}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b0a2cacdf4f42b8a4b4f7da5c8d50a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &573612984
@@ -2131,6 +2298,7 @@ GameObject:
   - component: {fileID: 684497080}
   - component: {fileID: 684497079}
   - component: {fileID: 684497078}
+  - component: {fileID: 684497081}
   - component: {fileID: 684497077}
   m_Layer: 5
   m_Name: X
@@ -2214,7 +2382,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 684497079}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 684497081}
+        m_TargetAssemblyTypeName: MenuButton, Assembly-CSharp
+        m_MethodName: PressButtonCustomizado
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &684497079
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2253,6 +2433,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 684497075}
   m_CullTransparentMesh: 1
+--- !u!114 &684497081
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 684497075}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b0a2cacdf4f42b8a4b4f7da5c8d50a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &732694375
 GameObject:
   m_ObjectHideFlags: 0
@@ -2344,6 +2536,7 @@ GameObject:
   - component: {fileID: 760504553}
   - component: {fileID: 760504552}
   - component: {fileID: 760504554}
+  - component: {fileID: 760504555}
   m_Layer: 5
   m_Name: Panel_Settings
   m_TagString: Untagged
@@ -2424,6 +2617,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f383e8b018094244ac8cea208e2f4db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &760504555
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 760504550}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6712244dc8a4799a9a84099787a9eac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentPanel: {fileID: 760504550}
+  targetPanel: {fileID: 1940224937}
+  activators:
+  - {fileID: 236883444}
 --- !u!1 &850527674
 GameObject:
   m_ObjectHideFlags: 0
@@ -2565,13 +2774,14 @@ GameObject:
   - component: {fileID: 1075770460}
   - component: {fileID: 1075770462}
   - component: {fileID: 1075770461}
+  - component: {fileID: 1075770463}
   m_Layer: 5
   m_Name: Panel_AddFriends
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1075770460
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2631,6 +2841,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1075770459}
   m_CullTransparentMesh: 1
+--- !u!114 &1075770463
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1075770459}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6712244dc8a4799a9a84099787a9eac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentPanel: {fileID: 1075770459}
+  targetPanel: {fileID: 1940224937}
+  activators:
+  - {fileID: 51646146}
 --- !u!1 &1154281865
 GameObject:
   m_ObjectHideFlags: 0
@@ -2722,6 +2948,7 @@ GameObject:
   - component: {fileID: 1158462994}
   - component: {fileID: 1158462993}
   - component: {fileID: 1158462995}
+  - component: {fileID: 1158462996}
   m_Layer: 5
   m_Name: Panel_TeamInvite
   m_TagString: Untagged
@@ -2800,6 +3027,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f383e8b018094244ac8cea208e2f4db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1158462996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1158462991}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6712244dc8a4799a9a84099787a9eac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentPanel: {fileID: 1158462991}
+  targetPanel: {fileID: 1940224937}
+  activators:
+  - {fileID: 684497081}
 --- !u!1 &1237623211
 GameObject:
   m_ObjectHideFlags: 0
@@ -4496,13 +4739,16 @@ GameObject:
   - component: {fileID: 1940224938}
   - component: {fileID: 1940224939}
   - component: {fileID: 1940224940}
+  - component: {fileID: 1940224941}
+  - component: {fileID: 1940224942}
+  - component: {fileID: 1940224943}
   m_Layer: 5
   m_Name: Panel_MainMenu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1940224938
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4553,7 +4799,55 @@ MonoBehaviour:
   parentPanel: {fileID: 1940224937}
   targetPanel: {fileID: 377292929}
   activators:
-  - {fileID: 1248757857}
+  - {fileID: 1248757863}
+--- !u!114 &1940224941
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1940224937}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6712244dc8a4799a9a84099787a9eac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentPanel: {fileID: 1940224937}
+  targetPanel: {fileID: 1075770459}
+  activators:
+  - {fileID: 528133735}
+--- !u!114 &1940224942
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1940224937}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6712244dc8a4799a9a84099787a9eac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentPanel: {fileID: 1940224937}
+  targetPanel: {fileID: 760504550}
+  activators:
+  - {fileID: 304305317}
+--- !u!114 &1940224943
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1940224937}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6712244dc8a4799a9a84099787a9eac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentPanel: {fileID: 1940224937}
+  targetPanel: {fileID: 1158462991}
+  activators:
+  - {fileID: 307174757}
 --- !u!1 &1990762997
 GameObject:
   m_ObjectHideFlags: 0

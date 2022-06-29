@@ -1738,9 +1738,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Teste
-
-'
+  m_Text: 
 --- !u!222 &400513880
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5672,7 +5670,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   listItemPrefab: {fileID: 1055681205}
   listItemHolder: {fileID: 935854902}
-  numOfListItems: 10
+  friend_count: 5
+  text: {fileID: 400513879}
+  friend:
+  - friendName: rapha
+    ID: 011
+  - friendName: joao
+    ID: 012
+  - friendName: joao
+    ID: 012
 --- !u!114 &2050456982
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="882cfd1b-d15a-4fc9-b438-8ac43340077f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Menu/WatchHologramMenu/DynamicViewPanel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Menu/WatchHologramMenu/DynamicViewPanel.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Menu/WatchHologramMenu/Friend.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Menu/WatchHologramMenu/Friend.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.LabrysVROnline-UnityProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LabrysVROnline-UnityProject/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Menu/WatchHologramMenu/DynamicViewPanel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Menu/WatchHologramMenu/DynamicViewPanel.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +98,7 @@
       <workItem from="1656356609796" duration="1560000" />
       <workItem from="1656358355975" duration="4963000" />
       <workItem from="1656502753078" duration="1642000" />
-      <workItem from="1656525597527" duration="3953000" />
+      <workItem from="1656525597527" duration="7109000" />
     </task>
     <servers />
   </component>
